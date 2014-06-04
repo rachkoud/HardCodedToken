@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Src\Client\Client.csproj", "{12329102-9749-4E88-8993-915DC0C534D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityService", "Src\IdentityService\IdentityService.csproj", "{6A4C7ADD-A783-4665-9EAD-73E0C322FD29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12329102-9749-4E88-8993-915DC0C534D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12329102-9749-4E88-8993-915DC0C534D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12329102-9749-4E88-8993-915DC0C534D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12329102-9749-4E88-8993-915DC0C534D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A4C7ADD-A783-4665-9EAD-73E0C322FD29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A4C7ADD-A783-4665-9EAD-73E0C322FD29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A4C7ADD-A783-4665-9EAD-73E0C322FD29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A4C7ADD-A783-4665-9EAD-73E0C322FD29}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

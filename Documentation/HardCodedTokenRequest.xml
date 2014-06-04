@@ -1,0 +1,70 @@
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing" xmlns:u="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+  <s:Header>
+    <a:Action s:mustUnderstand="1">GetIdentity</a:Action>
+    <a:MessageID>urn:uuid:4ed79b7d-ce39-4df0-a6f9-f24308175378</a:MessageID>
+    <a:ReplyTo>
+      <a:Address>http://www.w3.org/2005/08/addressing/anonymous</a:Address>
+    </a:ReplyTo>
+    <VsDebuggerCausalityData xmlns="http://schemas.microsoft.com/vstudio/diagnostics/servicemodelsink">uIDPo1q0uMG839BFhIXSOLsXxPUAAAAAIv4JBchAhkiylplhawxPZyto+wLrcddJj+ZuDddSyXcACQAA</VsDebuggerCausalityData>
+    <a:To s:mustUnderstand="1">https://windows7:444/identity/wstrust</a:To>
+    <o:Security s:mustUnderstand="1" xmlns:o="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <u:Timestamp u:Id="_0">
+        <u:Created>2013-05-18T10:36:25.137Z</u:Created>
+        <u:Expires>2013-05-18T10:41:25.137Z</u:Expires>
+      </u:Timestamp>
+      <Assertion ID="_cb45748e-a814-48df-af82-a4ab485f597d" IssueInstant="2013-05-18T10:35:58.745Z" Version="2.0" xmlns="urn:oasis:names:tc:SAML:2.0:assertion">
+        <Issuer>http://identityserver.v2.thinktecture.com/trust/changethis</Issuer>
+        <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+          <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            <Reference URI="#_cb45748e-a814-48df-af82-a4ab485f597d">
+              <Transforms>
+                <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+              </Transforms>
+              <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+              <DigestValue>HvsJlYpXsu2nr5vdkwvIJgBSLuBycEBs7LNRaTkj0ig=</DigestValue>
+            </Reference>
+          </SignedInfo>
+          <SignatureValue>GqBSFV7lv4K84+KM/g2HrPbST95dR/+yHMrrQlY2KMqeeCYSCIUqoVfWZ1Du+BPL0qSyXR4SpJE/5neT2eIN3HRtFbgOH4fVu+V2aD9FDGk3En+NPHa153vAgiK0QYbbXPsSM48AK9wG2AyWAy5H8T3CELcHkhTVVzrj+etULXOiecMeC83l2byQqVKMYkQIruO0WZHVVIjaCLMNiLFq3ejrkfexNTVsk/PybDUTq/2kwiOPMadTRRvJKMkFTjJBW3PKwaW4hH9ne4Li+zWzOxH2l2Re2+0S+E0kSeVjN/3DwFilM7pQwQqQokD94NIHE6PYKVRAsHyHLi9xGzeTFg==</SignatureValue>
+          <KeyInfo>
+            <X509Data>
+              <X509Certificate>MIIC1DCCAbygAwIBAgIQOyN9FYAoGLRJmetQ8G0D+zANBgkqhkiG9w0BAQUFADATMREwDwYDVQQDEwhXSU5ET1dTNzAeFw0xMzA1MTExNTE1NThaFw0xNDA1MTEwMDAwMDBaMBMxETAPBgNVBAMTCFdJTkRPV1M3MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1tR/ZEoeuUsSiCFsN9+wJhnTJafZECwRd14Q+J5lGXK7AaUaUGaB2xHmlcxlTZ7I1GlAajrlr3xPK3ndfJ1X+ZG/eTg6MrQWq28iveilTR58rk/jBeni90at3h+0UtgNEdyTTw1AxbqQ8i5JFl2bafNqccxEaow5lyuPARUx1ek2ZNkJ0EvkqWItcbBi+dmIbTT6q976umZN38fC3XNQA9gqs1ZT+arANrXK56Qyq2L2f1VobECIuSbTW3iWSA3rSHfCJkW8jKPcSO5CFNymTe7YQJVhVD1x8lPM1T0yna3g4OQsK3XCpAvY7oZZrYSGibNEkGeMskqfSze2H2ouDQIDAQABoyQwIjALBgNVHQ8EBAMCBDAwEwYDVR0lBAwwCgYIKwYBBQUHAwEwDQYJKoZIhvcNAQEFBQADggEBAGCR1k9CjyJpHsBxkVtc6bU82mcq/y2boBvC5w64E5C64p1cph/4tqZioFGR3ZvmBpByroUTwkaP+49wihP32hmGnSDfOHArdiQtqqt2Gqg22W9V/1gJw09kF8NtnZf4TUUkDzKfqtucE+fkNWLn+ODD3+07T6T+0z4llBG0moMJMHuTDN/TtdJJe/7nwg3Y0X0uKbq0yIb8c12FjyGs86EYZLEcUQFhdHZAhj5TvnuLmIsjQ2sr0EVEudHWby37MNMu8Ul205Dzg9IxZKXRdfdXKU2BB95ePFG0tTheNjARP/igsMPTSSaO+4USX25aBjdO2TriIrRF9xfYxp2sAYw=</X509Certificate>
+            </X509Data>
+          </KeyInfo>
+        </Signature>
+        <Subject>
+          <SubjectConfirmation Method="urn:oasis:names:tc:SAML:2.0:cm:bearer"/>
+        </Subject>
+        <Conditions NotBefore="2013-05-18T10:35:58.711Z" NotOnOrAfter="2013-05-20T10:35:58.711Z">
+          <AudienceRestriction>
+            <Audience>https://windows7:444/identity/wstrust/bearer</Audience>
+          </AudienceRestriction>
+        </Conditions>
+        <AttributeStatement>
+          <Attribute Name="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name">
+            <AttributeValue>bob</AttributeValue>
+          </Attribute>
+          <Attribute Name="http://identityserver.thinktecture.com/claims/profileclaims/twittername">
+            <AttributeValue/>
+          </Attribute>
+          <Attribute Name="http://identityserver.thinktecture.com/claims/profileclaims/city">
+            <AttributeValue/>
+          </Attribute>
+          <Attribute Name="http://identityserver.thinktecture.com/claims/profileclaims/homepage">
+            <AttributeValue/>
+          </Attribute>
+        </AttributeStatement>
+        <AuthnStatement AuthnInstant="2013-05-18T10:35:58.767Z">
+          <AuthnContext>
+            <AuthnContextClassRef>urn:oasis:names:tc:SAML:2.0:ac:classes:Password</AuthnContextClassRef>
+          </AuthnContext>
+        </AuthnStatement>
+      </Assertion>
+    </o:Security>
+  </s:Header>
+  <s:Body>
+    <GetIdentity xmlns="urn:tt"/>
+  </s:Body>
+</s:Envelope>
