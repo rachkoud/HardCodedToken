@@ -15,8 +15,18 @@ This setup could be hard to configure and we can't test this in a test environme
 
 So we can start testing our security concepts without the STS and when the STS is configured, the only thing we must change in our code is the call to STS to get the token and only values (no new settings) will change in the web.config.
 
-## Setup
+# Quickstart
 
-You must change the certificate thumprint value and the hostname.
+### Install
 
-**Projects from [Thinktecture.IdentityModel.45](https://github.com/thinktecture/Thinktecture.IdentityModel.45) have been used.**
+You can use Visual Studio Community to open the solution, then you  must change the certificate thumprint value and the hostname in the configuration file of the identy service and in the client application.
+
+### References
+
+Projects from [Thinktecture.IdentityModel.45](https://github.com/thinktecture/Thinktecture.IdentityModel.45) have been used.
+
+### License
+
+`HardCodedToken` is a public domain work, dedicated using
+[CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Feel free to do
+whatever you want with it.
